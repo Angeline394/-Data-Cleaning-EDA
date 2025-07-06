@@ -1,72 +1,55 @@
-# 🧹 Data Cleaning & Exploratory Data Analysis (EDA) 
-Halo! 👋  
-Proyek ini merupakan implementasi lengkap dari proses **pembersihan data (data cleaning)** dan **eksplorasi data (EDA)** menggunakan Python. Cocok banget buat kamu yang ingin memahami cara mempersiapkan data sebelum masuk ke tahap analisis lanjutan atau pemodelan machine learning.
+# 🧹📊 Data Cleaning & Exploratory Data Analysis (EDA)
+
+Proyek ini berfokus pada pembersihan data dan analisis eksploratif terhadap data pelanggan. Tujuannya adalah untuk memahami pola perilaku, karakteristik demografis, serta tren pendapatan dan kepuasan pelanggan, sebelum masuk ke tahap pemodelan atau pengambilan keputusan bisnis.
+
+## 🎯 Tujuan Proyek
+
+- Membersihkan data mentah agar siap dianalisis
+- Menangani data hilang, outlier, dan ketidakkonsistenan
+- Melakukan visualisasi data secara informatif
+- Menyusun insight awal untuk mendukung strategi bisnis
+
+## 🧰 Teknologi yang Digunakan
+
+- Python
+- Pandas & NumPy
+- Seaborn & Matplotlib
+- Jupyter Notebook
+
+## 🖼️ Cuplikan Proses
+
+### ✅ Dataset Berhasil Dimuat
+<img src="images/Dataset sukses dimuat.png" alt="Dataset sukses dimuat" width="700"/>
+
+### 📊 Contoh Output Visualisasi
+<img src="images/Output.png" alt="Visualisasi Output" width="700"/>
+
+## 🔍 Ringkasan Analisis
+
+Beberapa langkah utama yang dilakukan dalam proyek ini:
+
+- **Imputasi Missing Values**: Pendekatan median dan mode digunakan untuk mengisi nilai kosong.
+- **Deteksi Outlier**: Visualisasi boxplot digunakan untuk mengidentifikasi nilai ekstrem yang mengganggu.
+- **Transformasi Tipe Data**: Tanggal bergabung pelanggan diformat ulang untuk kebutuhan analisis tren.
+- **Visualisasi Interaktif**:
+  - Distribusi pendapatan per jenis kelamin
+  - Hubungan pendidikan dengan kepuasan pelanggan
+  - Tren waktu berdasarkan tanggal bergabung
+
+## 📈 Insight Kunci
+
+- Rata-rata pendapatan pelanggan meningkat seiring waktu bergabung.
+- Pelanggan dengan latar belakang pendidikan tinggi cenderung memiliki tingkat kepuasan lebih tinggi.
+- Terdapat variasi pendapatan yang cukup mencolok antar gender.
+- Segmentasi awal menunjukkan adanya kelompok pelanggan potensial dengan kepuasan tinggi namun pendapatan rendah.
+
+## 📬 Kontak
+
+**Angeline Feliciana Hutahaean**  
+📍 Medan, North Sumatera, Indonesia  
+📧 angelinefelicianahutahaean@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/angelinefelicianahutahaean)
 
 ---
 
-## 📌 Tujuan Proyek
-
-✔️ Membersihkan dataset dari missing values, outliers, dan duplikat  
-✔️ Menormalkan dan menstandardisasi data numerik  
-✔️ Mengubah tipe data agar lebih siap digunakan  
-✔️ Mengekstrak insight awal dari data melalui visualisasi dan statistik deskriptif  
-✔️ Menyimpan dataset yang telah dibersihkan dalam format CSV
-
----
-
-## 📊 Tools & Teknologi
-
-- Python 🐍  
-- Pandas, NumPy  
-- Matplotlib, Seaborn  
-- Scikit-learn  
-- Jupyter Notebook  
-
----
-
-## 📉 Fitur-Fitur yang Dibahas
-
-### ✅ Data Cleaning
-- Deteksi dan imputasi missing values (median/mode)  
-- Deteksi dan penanganan outliers dengan teknik capping/IQR  
-- Deteksi dan penghapusan duplikat  
-- Normalisasi & standardisasi data numerik  
-- Transformasi tanggal ke tahun & bulan  
-
-### 📈 Exploratory Data Analysis
-- Univariate & bivariate analysis  
-- Scatter plots, box plots, violin plots  
-- Heatmap korelasi antar variabel numerik  
-- Analisis tren berdasarkan waktu (time-series)  
-
----
-
-## 📦 Dataset
-
-- File dummy `customer_data.csv` tersedia di folder `data/`  
-- Atau kamu bisa gunakan dataset pribadi dengan struktur serupa (kolom: Usia, Pendapatan, Pengeluaran, dll)
-
----
-
-## 📁 Output
-
-Setelah pembersihan selesai, dataset akan disimpan sebagai: cleaned_customer_data.csv
-
-Siap digunakan untuk tahap selanjutnya seperti **clustering**, **predictive modeling**, atau **dashboarding**!
-
----
-
-## 💡 Visual Preview
-
-Beberapa visualisasi yang dihasilkan:
-
-- 📊 Histogram & KDE: Distribusi Usia, Pendapatan, Pengeluaran  
-- 📦 Box Plot: Deteksi outlier  
-- 🎻 Violin Plot: Kepuasan vs Pendidikan  
-- 🔥 Heatmap: Korelasi antar variabel  
-- 📈 Line Chart: Tren Pendapatan & Pengeluaran dari waktu ke waktu  
-
----
-
-> Terima kasih sudah mampir ke proyek ini! Jangan ragu untuk eksplor dan modifikasi sesuai kebutuhanmu 🚀
-
+> "Data yang bersih adalah fondasi dari keputusan yang cerdas."
