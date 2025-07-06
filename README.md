@@ -18,11 +18,14 @@ Proyek ini berfokus pada pembersihan data dan analisis eksploratif terhadap data
 
 ## 🖼️ Cuplikan Proses
 
-### ✅ Dataset Berhasil Dimuat
-<img src="images/Dataset sukses dimuat.png" alt="Dataset sukses dimuat" width="700"/>
+### 🟢 Dataset Sukses Dimuat
+<img src="images/Dataset sucess dimuat.png" alt="Dataset sukses dimuat" width="700"/>
+
+### 📁 File Dibaca dengan Sukses
+<img src="images/FIle sucess di muat.png" alt="File sukses dimuat" width="700"/>
 
 ### 📊 Contoh Output Visualisasi
-<img src="images/Output.png" alt="Visualisasi Output" width="700"/>
+<img src="images/Output.png" alt="Output visualisasi" width="700"/>
 
 ## 🔍 Ringkasan Analisis
 
