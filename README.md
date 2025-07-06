@@ -1,5 +1,4 @@
-# 🧹 Data Cleaning & Exploratory Data Analysis (EDA) Project
-
+# 🧹 Data Cleaning & Exploratory Data Analysis (EDA) 
 Halo! 👋  
 Proyek ini merupakan implementasi lengkap dari proses **pembersihan data (data cleaning)** dan **eksplorasi data (EDA)** menggunakan Python. Cocok banget buat kamu yang ingin memahami cara mempersiapkan data sebelum masuk ke tahap analisis lanjutan atau pemodelan machine learning.
 
